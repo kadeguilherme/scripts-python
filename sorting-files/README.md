@@ -1,4 +1,4 @@
-# Script de Ordenação de Arquivos em Python
+# Script de Ordenação de Arquivos
 
 ## Descricão
 Este script em Python foi desenvolvido para organizar os arquivos dentro de uma pasta com base em suas extensões. Ele percorre o diretorio especificado, identifica a extensão de cada arquivo e os move para subdiretorios correspondentes, criado automaticamente
