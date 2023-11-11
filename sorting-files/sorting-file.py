@@ -1,5 +1,5 @@
 # Python script to sort files in a directory by their extension
-import os
+import os, sys
 from shutil import move
 
 def sort_file(directory_path):
@@ -17,5 +17,6 @@ def sort_file(directory_path):
             if not os.path.isfile(os.path.join(destination_directory, filename)):
                 move(os.path.join(directory_path, filename), os.path.join(destination_directory, filename))
 
-directory_path = "/path/of/your/directory"
+directory_path = sys.argv[1]
+
 sort_file(directory_path)
